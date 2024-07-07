@@ -14,9 +14,9 @@ module Jekyll
         # Provides the digest path, or non-digest path.
         # @return [String]
         # --
-        def digest_path
-          environment.asset_config[:digest] ? super : logical_path
-        end
+        # def digest_path
+        #   environment.asset_config[:digest] ? super : logical_path
+        # end
 
         # --
         # Returns the data uri.
